@@ -1,6 +1,6 @@
-## Hello World!
+## Hello World, Die!
 
-This is game that some dumb people made because why not.
-It should not have taken as long as it did but as I mentioned before we are dumb.
+This is not a game that some dumb people made because why not.
+It should have taken as long as it did but as I mentioned before we are totally not dumb.
 
-Por- I mean Github link: https://github.com/K1DN0V4/DentalPureAfkGamingTEST2
+Git- I mean Pornhub link: https://github.com/K1DN0V4/DentalPureAfkGamingTEST2
