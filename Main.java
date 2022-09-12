@@ -45,27 +45,28 @@ class Main {
   public static void room1(){
     System.out.println("You fall down a hole and miraculously don't die. Nice!! \nAll you can see is a single yellow dandelion. \nWhat do you want to name it? (Type in a response)");
     flowerName = input.nextLine();
-    if (flowerName.equals("flowey") || flowerName.equals("Flowey")) {
+    String flowerNameLowercase = flowerName.toLowerCase();
+    if (flowerNameLowercase.equals("flowey")) {
       System.out.println("You named your flower " + flowerName + ". Nice one, very based.");
       easterEggs++;
     }
-    else if (flowerName.equals("Marcus") || flowerName.equals("marcus")) {
+    else if (flowerNameLowercase.equals("marcus")) {
       System.out.println("You named your flower " + flowerName + ". ur mom lol gottem.");
       easterEggs++;
     }
-    else if (flowerName.equals("Sid") || flowerName.equals("sid")) {
+    else if (flowerNameLowercase.equals("sid")) {
       System.out.println("You named your flower " + flowerName + ". Rumor has it this dandelion was called the hard r even though it's originally from India.");
       easterEggs++;
     }
-    else if (flowerName.equals("Loukas") || flowerName.equals("loukas")) {
+    else if (flowerNameLowercase.equals("loukas")) {
       System.out.println("You named your flower " + flowerName + ". It's yellow. hehehehehehe.");
       easterEggs++;
     }
-    else if (flowerName.equals("Leo") || flowerName.equals("leo")) {
+    else if (flowerNameLowercase.equals("leo")) {
       System.out.println("You named your flower " + flowerName + ". You named it after a moron, idiot.");
       easterEggs++;
     }
-    else if (flowerName.equals("Joey") || flowerName.equals("joey")) {
+    else if (flowerNameLowercase.equals("joey")) {
       System.out.println("You named your flower " + flowerName + ". Congrats you named your flower after a nerdy ass pasta boy.");
       easterEggs++;
     }
@@ -73,11 +74,11 @@ class Main {
       System.out.println("You named your flower \" \". Lazy bitch.");
       easterEggs++;
     }
-    else if (flowerName.equals("Josiah") || flowerName.equals("josiah")) {
+    else if (flowerNameLowercase.equals("josiah")) {
       System.out.println("You named your flower " + flowerName + ". Odd, your flower is scared of boats somehow.");
       easterEggs++;
     }
-    else if (flowerName.equals("deez nuts") || flowerName.equals("Deez Nuts") || flowerName.equals("DEEZ NUTS")) {
+    else if (flowerNameLowercase.equals("deez nuts")) {
       System.out.println("You named your flower " + flowerName + "... IN YOUR MOUTH!! HAH YOU FOOL, YOU DIDN'T THINK I'D PREDICT THAT??");
       easterEggs++;
     }
